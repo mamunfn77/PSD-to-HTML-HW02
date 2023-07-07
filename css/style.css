@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;;
+ }
+
+ul{
+    list-style: none;
+ }
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.heading span{
+    font-size: 16px;
+    color: #bcbfc1;
+}
+
+.button{
+    display: inline-block;
+    padding: 20px 41px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #1b1f16;
+}
+
+.align-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav .logo{
+    width: 30%;
+    align-self: center;
+}
+
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+
+nav{
+    background-color:#02918c;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+}
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.34);
+    background-blend-mode: multiply;
+}
+
+.banner-cont{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.banner-cont h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner-cont h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner-cont h5{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-cont img{
+   
+   display: block;
+   margin: 50px auto;
+}
+#banner .container, 
+#banner .row{
+    height: 100%;
+}
+#about{
+    margin: 99px 0;
+}
+
+.heading p{
+    margin-top: 23px;
+   line-height: 30px;
+   font-size: 16px;
+   color: #878a8f;
+}
+
+.heading p span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+.about-card{
+    width: 25%;
+    text-align: center;
+}
+
+.about-card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 25px 0;
+}
+
+.about-card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px;
+}
